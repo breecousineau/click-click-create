@@ -2,8 +2,24 @@ html {
   box-sizing: border-box;
 }
 
-* {
+*, *::before, *::after {
   box-sizing: inherit;
+}
+
+nav {
+  display: none;
+}
+
+input.nav-toggle {
+  display: none;
+}
+
+input.nav-toggle:checked ~ nav {
+  display: block;
+}
+
+label.nav-toggle-label {
+  display: block;
 }
 
 img {
@@ -28,7 +44,8 @@ nav {
   font-family: 'Cousine';
   font-weight: 400;
   color: #FFFFFF;
-  z-index: 2;
+  justify-content: center;
+  margin: 0;
 }
 
 .logo {
@@ -88,4 +105,18 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+input.nav-toggle {
+  display: none;
+}
+
+label.nav-toggle-label {
+  display: none;
+}
+
+nav {
+  display: block;
 }
