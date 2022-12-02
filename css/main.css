@@ -6,10 +6,6 @@ html {
   box-sizing: inherit;
 }
 
-nav {
-  display: none;
-}
-
 input.nav-toggle {
   display: none;
 }
@@ -46,6 +42,11 @@ nav {
   color: #FFFFFF;
   justify-content: center;
   margin: 0;
+  display: none;
+}
+
+h2 {
+  margin: 0;
 }
 
 .logo {
@@ -61,7 +62,7 @@ nav {
 }
 
 .links {
-  float: right;
+  text-align: center;
   line-height: 3em;
   list-style-type: none;
   padding: 0;
@@ -83,11 +84,23 @@ nav {
   color: #f48062;
 }
 
-featured-creatives-cards > img {
-  width: 100%;
-  object-fit: cover;
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+
+}
+.featured-creatives-cards {
+  padding: 0 321px;
+  background-image: url(../img/colour-banner-plain.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.featured-creatives {
+max width: 500px;
+max height: 300px;
 }
 
 footer {
