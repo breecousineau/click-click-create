@@ -48,9 +48,56 @@ h2 {
   color: #FFFFFF;
 }
 
+.featured-creatives-cards h2{
+  padding-top: 7rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.anil img{
+  padding-top: 7rem;
+}
+
+.anil h3 {
+  text-align: center;
+}
+
+.nina img{
+  padding-top: 7rem;
+}
+
+.nina h3{
+  text-align: center;
+}
+
+.ella img{
+  padding-top: 10rem;
+}
+
+.ella h3 {
+  text-align: center;
+}
+
+.jay img{
+  padding-top: 10rem;
+}
+
+.jay h3 {
+  text-align: center;
+}
+
+.link-btn {
+  text-align: center;
+}
+
 .about-us {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+
+.about-us h2 {
+  grid-column: span (2);
 }
 
 .logo {
