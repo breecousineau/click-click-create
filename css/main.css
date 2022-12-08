@@ -6,17 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-input.nav-toggle {
-  display: none;
-}
-
-input.nav-toggle:checked ~ nav {
-  display: block;
-}
-
-label.nav-toggle-label {
-  display: block;
-}
+/* featured creatives page 1 */
 
 img {
   width: 100%;
@@ -39,7 +29,7 @@ nav {
 body {
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #FFFFFF;
   font-family: 'Cousine';
 }
 
@@ -158,6 +148,7 @@ footer {
   width: 100%;
   background-color: #2d2d2d;
   padding: 2rem;
+  text-align: right;
 }
 
 footer a {
