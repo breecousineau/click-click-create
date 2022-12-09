@@ -13,7 +13,7 @@ img {
 }
 
 nav {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 100%;
   /* background-color: #f5f5f5; */
   padding: 1em 3em;
@@ -48,39 +48,6 @@ h2 {
   text-align: center;
 }
 
-
-
-/* .anil img{
-}
-
-.anil h3 {
-  text-align: center;
-}
-
-.nina img{
-  padding-top: 7rem;
-}
-
-.nina h3{
-  text-align: center;
-}
-
-.ella img{
-  padding-top: 10rem;
-}
-
-.ella h3 {
-  text-align: center;
-}
-
-.jay img{
-  padding-top: 10rem;
-}
-
-.jay h3 {
-  text-align: center;
-} */
-
 .link-btn {
   text-align: center;
 }
@@ -100,10 +67,12 @@ h2 {
 
 .banner img{
   width: 100%;
-  background-size: cover;
+  margin-bottom: -10px;
+  padding: 0;
+  /* background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center center; */
 }
 
 .links {
@@ -139,7 +108,7 @@ h2 {
 .featured-creatives-cards {
   padding: 0 321px;
   background-image: url(../img/colour-banner-plain.png);
-  background-position: top;
+  background-position: center -300px;
   background-size: cover;
   background-repeat: no-repeat;
 }
