@@ -71,9 +71,6 @@ h2 {
   align-items: center;
 }
 
-.about-us h2 {
-}
-
 .logo {
   height: 4em;
 }
@@ -168,11 +165,12 @@ main > section {
   background-position: center -510px;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
-main > h2 {
-  align-content: center;
+.creative-resources h2 {
+  padding-top: 7rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .name > h3 {
@@ -193,7 +191,7 @@ main > h2 {
 }
 .creator {
   text-align: center;
-  padding-top: 9em;
+  padding-top: 5em;
 }
 
 .gallery img {
