@@ -49,6 +49,7 @@ h2 {
 .featured-creatives-cards p {
   font-family: 'Inter';
   font-size: .8em;
+  padding-bottom: 1rem;
 }
 
 .featured-creatives-cards a {
@@ -62,7 +63,7 @@ background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100
 }
 
 .link-btn {
-  text-align: center;
+  align-content: center;
 }
 
 .about-us {
