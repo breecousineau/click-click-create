@@ -53,13 +53,13 @@ h2 {
 }
 
 .featured-creatives-cards a {
-text-decoration: none;
-color: white;
-padding: .6em .8em;
-font-size: .8em;
-align-items: center;
-background: rgb(164,40,123);
-background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100%);
+  text-decoration: none;
+  color: white;
+  padding: .6em .8em;
+  font-size: .8em;
+  align-items: center;
+  background: rgb(164,40,123);
+  background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100%);
 }
 
 .link-btn {
@@ -69,7 +69,6 @@ background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100
 .about-us {
   display: inline-flex;
   align-items: center;
-
 }
 
 .about-us h2 {
@@ -83,10 +82,6 @@ background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100
   width: 100%;
   margin-bottom: -10px;
   padding: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
 }
 
 .links {
@@ -118,7 +113,6 @@ background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100
   grid-template-rows: 1fr;
   gap: 2rem;
   padding-bottom: 3rem;
-
 }
 
 .grid strong {
@@ -137,23 +131,31 @@ background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100
   background-repeat: no-repeat;
 }
 .featured-creatives {
-max width: 500px;
-max height: 300px;
+  max width: 500px;
+  max height: 300px;
 }
 
 /* resources page 2 */
 
 .about-us {
-  padding: 0 200px;
+  padding: 100px 200px 100px;
   background-image: url(../img/colour-banner-plain.png);
   background-position: center -310px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.about-us h2 {
+
+}
+
 .about-us > img {
   max-height: 1000px;
   min-width: 200px;
+}
+
+.about-us > p {
+  padding-right: 3em;
 }
 
 /* resources page 3 */
@@ -163,15 +165,27 @@ h3 {
 }
 main > section {
   background-image: url(../img/colour-banner-plain.png);
+  background-position: center -410px;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
+
+main > h2 {
+  align-content: center;
+}
+
+.name > h3 {
+  color: white;
+}
+
 .featured-creatives-cards-2 {
   display: flex;
   margin: 0 auto;
   justify-content: center;
 }
 .featured-creatives-cards-2 img {
-  width: 158px;
+  width: 258px;
 }
 .featured-creatives-cards h2 {
   margin-bottom: 4rem;
@@ -179,18 +193,20 @@ main > section {
 }
 .creator {
   text-align: center;
+  padding-top: 8em;
 }
 
 .gallery img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   display: block;
   margin: 0;
-  padding: 0;
+  padding: 5px;
 }
 .gallery-box {
   display: flex;
+  padding-bottom: 3rem;
 
 }
 .footer-logo {
