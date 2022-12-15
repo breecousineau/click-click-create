@@ -46,6 +46,21 @@ h2 {
   text-align: center;
 }
 
+.featured-creatives-cards p {
+  font-family: 'Inter';
+  font-size: .8em;
+}
+
+.featured-creatives-cards a {
+text-decoration: none;
+color: white;
+padding: .6em .8em;
+font-size: .8em;
+align-items: center;
+background: rgb(164,40,123);
+background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100%);
+}
+
 .link-btn {
   text-align: center;
 }
@@ -67,10 +82,10 @@ h2 {
   width: 100%;
   margin-bottom: -10px;
   padding: 0;
-  /* background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center; */
+  background-position: center center;
 }
 
 .links {
@@ -101,8 +116,18 @@ h2 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 2rem;
+  padding-bottom: 3rem;
 
 }
+
+.grid strong {
+  color: #f48062;
+}
+
+.grid img {
+  padding-top: 3rem;
+}
+
 .featured-creatives-cards {
   padding: 0 321px;
   background-image: url(../img/colour-banner-plain.png);
