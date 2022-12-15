@@ -55,7 +55,7 @@ h2 {
 .featured-creatives-cards a {
   text-decoration: none;
   color: white;
-  padding: .6em .8em;
+  padding: .6em .3em;
   font-size: .8em;
   align-items: center;
   background: rgb(164,40,123);
@@ -165,7 +165,7 @@ h3 {
 }
 main > section {
   background-image: url(../img/colour-banner-plain.png);
-  background-position: center -410px;
+  background-position: center -510px;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -176,7 +176,7 @@ main > h2 {
 }
 
 .name > h3 {
-  color: white;
+  color: black;
 }
 
 .featured-creatives-cards-2 {
