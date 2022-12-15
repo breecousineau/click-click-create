@@ -55,8 +55,8 @@ h2 {
 .featured-creatives-cards a {
   text-decoration: none;
   color: white;
-  padding: .6em .3em;
-  font-size: .8em;
+  padding: .6em .9em;
+  font-size: .7em;
   align-items: center;
   background: rgb(164,40,123);
   background: linear-gradient(90deg, rgba(164,40,123,1) 0%, rgba(243,127,98,1) 100%);
@@ -193,7 +193,7 @@ main > h2 {
 }
 .creator {
   text-align: center;
-  padding-top: 8em;
+  padding-top: 9em;
 }
 
 .gallery img {
